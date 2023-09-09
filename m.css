@@ -51,3 +51,13 @@ input[type="text"] {
 #time {
     margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%; 
+    }
+    
+    button {
+        width: 100%; 
+    }
+}
